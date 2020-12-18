@@ -824,13 +824,14 @@ html {
 
 @media screen and (max-width:376px) {
     .headerlogo {
-        margin-left: 1450x;
+        margin-left: 145x;
     }
     #nav-icon1 {
         margin-left: -20px;
     }
     .search {
         margin-left: 100px;
+        margin-right: 20px;
     }
     .btn2 {
         margin-top: -60px;
@@ -887,5 +888,27 @@ html {
     }
     .footer-row {
         padding-left: 90px;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .logo {
+        margin-left: -20px;
+    }
+    #nav-icon1 {
+        margin-left: -30px;
+    }
+    .search {
+        margin-left: 80px;
+    }
+    .famous-text1 {
+        font-size: 12px;
+        margin-top: 93px;
+    }
+    .contact-text {
+        margin-left: 70px;
+    }
+    .footer-row {
+        padding-left: 70px;
     }
 }
